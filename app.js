@@ -37,7 +37,7 @@ app.post("/", (req, res) => {
 
   const option = {
     method: "POST",
-    auth: "kashif:36c0c84a1f14e117e1ce80ca5a3c2b40-us6",
+    auth: "kashif:36c0c84a1f14e1ce80ca5a3c2b40-us9",
   };
 
   const request = https.request(url, option, (response) => {
@@ -59,5 +59,4 @@ app.listen(process.env.PORT || 3000, () => {
   console.log("server is running on port 3000");
 });
 
-//Api Key     36c0c84a1f14e117e1ce80ca5a3c2b40-us6
-//App id      2860788f1b
+
